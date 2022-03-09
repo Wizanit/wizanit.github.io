@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #444466;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    user-select: none;
+}
+
+.central-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hat-picture {
+    background-image: url("../assets/hat.png");
+    background-size: cover;
+    width: 255px;
+    height: 194px;
+    background-repeat: no-repeat;
+    filter: brightness(150%);
+}
+
+.jumbo-letters {
+    font-family: "Amatic", sans-serif, regular;
+    font-size: 10rem;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.jumbo-slogan {
+    font-family: "Viga", sans-serif, regular;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+@font-face {
+    font-family: 'Viga';
+    src: url('../assets/fonts/Viga-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Amatic';
+    src: url('../assets/fonts/Amatic-Bold.ttf') format('truetype');
+}
