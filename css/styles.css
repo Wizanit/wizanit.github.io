@@ -10,6 +10,7 @@ body {
     align-items: center;
     height: 100vh;
     user-select: none;
+    min-width: 320px;
 }
 
 .central-container {
@@ -30,14 +31,14 @@ body {
 
 .jumbo-letters {
     font-family: "Amatic", sans-serif, regular;
-    font-size: 10rem;
+    font-size: min(max(40vw, 8rem), 10rem);
     font-weight: bold;
     color: whitesmoke;
 }
 
 .jumbo-slogan {
     font-family: "Viga", sans-serif, regular;
-    font-size: 2rem;
+    font-size: min(max(8vw, 1.5rem), 2rem);
     color: whitesmoke;
 }
 
